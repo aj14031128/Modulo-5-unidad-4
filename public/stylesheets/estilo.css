@@ -1,0 +1,215 @@
+/* font-family: 'Oswald', sans-serif; */
+
+main h1{margin-left: 5%;}
+
+/* En esta etapa se edita el logo y el nombre */
+
+.holder{background-color:white;
+display: flex;
+align-items: center;}
+
+.holder img{width: 100px;
+    margin-left: 10px;}
+
+.textologo{display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif
+}
+
+.textologo h1{margin: 0%;
+font-size: 35px;}
+
+.textologo h2{margin: 0%;
+font-size: 20px;}
+
+/* Fin del logo y nombre */    
+/* En esta etapa se edita la barra de navegacion */
+
+nav{margin bottom: 2px; background-color: rgb(6,108,155);}
+
+nav ul{list-style: none;
+margin: 0%;
+padding: 0%;}
+
+nav ul li{display: inline-block;
+position: relative;
+left: 1.5%; 
+width: 19%;
+text-align: center;
+font-family: 'Oswald', sans-serif}
+
+nav ul li a{color: white;
+text-decoration: none;}
+
+nav ul li:hover{background-color: rgb(39,32,75);
+    text-decoration: none;}
+
+.activo{background-color: rgb(39,32,75)}
+
+/* Fin de la barra de navegacion */
+
+
+/* Nosotros */
+h1{font-family: 'Oswald', sans-serif;
+font-size: 130%;}
+
+P{font-family: 'Oswald', sans-serif;
+font-size: 90%;
+text-align: center;}
+
+.CONTENEDORNOSOTROS1{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+
+.CONTENEDORNOSOTROS2 img{
+    border-radius: 50%;
+    max-width: 70%;
+    margin: 15%;
+}
+
+
+.CONTENEDORNOSOTROS2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(6,108,155);
+    width: 20%;
+    margin: 20px;
+    border-radius: 20PX;
+    font-size: 70%;
+}
+
+.CONTENEDORNOSOTROS2:hover{
+    background-color: rgb(39,32,75);
+    color: white;
+}
+
+
+/* Fin de Nosotros */
+
+
+/* Inicio de servicios */
+
+.CONTENEDORSERVICIOS1{    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    height: fit-content;
+    border-radius: 20px;
+    border:RGB(156,156,156);
+    border-style: solid;
+    border-width: 1px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif
+}
+
+.CONTENEDORSERVICIOS1 h4{text-align: center;
+margin: 0%;}   
+
+.CONTENEDORSERVICIOS2{
+    display: flex;
+    align-content: center;
+    text-align: left;
+    flex-direction: column;
+    background-color: rgb(6,108,155);
+    width: 70%;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 1%;
+    color: white;
+}
+
+.CONTENEDORSERVICIOS3{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(6,108,155);
+    width: 20%;
+    margin: 20px;
+    border-radius: 20PX;
+}
+
+
+
+.CONTENEDORSERVICIOS3 img{
+    max-width: 90%;
+    margin: 5%;
+    border-radius: 20PX;
+}
+
+
+/* Fin de servicios */
+
+
+
+
+
+/* Inicio de proyectos */
+/* Se tomo el mismo estilo que a servicios */
+/* Fin de proyectos */
+
+
+/* Inicio de contacto */
+.CONTACTO1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1%;
+}
+
+
+.CONTACTO2{
+    width: 47%;
+    border-right: rgb(39,32,75);
+    border-right: 1px solid;
+}
+
+
+.CONTACTO3{width: 47%;
+    }
+
+
+.formulario label{
+    width: 25%;
+    vertical-align: top;
+    text-align: left;
+ }
+
+ .formulario input, 
+ .formulario textarea{
+    width: 65%; 
+    background-color:#ddd;
+    border-radius: 5px;
+    border: 1px solid rgb(39,32,75);
+ }
+
+ .formulario input[type="submit"]{
+     background-color: rgb(6,108,155);
+     color: white;
+     width: 30%;
+     cursor: pointer;
+     box-shadow: rgb(39,32,75);
+ }
+
+/* Fin de contacto */
+
+
+
+
+/* Pie de la pagina */
+footer{background-color: rgb(156, 156, 156);
+display:flex;
+align-items: center;
+justify-content: center;
+margin-top: 10%;
+font-family: 'Oswald', sans-serif}
+/* Fin del pie de pagina */

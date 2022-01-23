@@ -1,0 +1,8 @@
+.holder{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border-bottom:rgb(39,32,75);
+    border-bottom: solid;
+}

@@ -1,0 +1,29 @@
+<div class="container">
+      <form action="/admin/login" method="post">
+         <div class="mb-3 row">
+            <div class="col-sm-12">
+                    <div class="form-group">
+                        <input type="" class="form-control" id="exampleFormControlInput1" placeholder="Usuario" name="usuario">
+                    </div>
+            </div>
+         </div>
+         <div class="mb-3 row">
+            <div class="col-sm-12">
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" name="password">
+                    </div>
+         </div>
+
+<div class="d-grid gap-2 col-6 mx-auto" style="margin: 10px";>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+</div>
+
+       </form>
+ </div>
+
+
+
+    {{#if error}}
+<p>Usuario o contraseña incorrecto</p>
+    {{/if}}
+
