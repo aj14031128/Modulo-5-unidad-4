@@ -17,5 +17,31 @@ async function insertNovedad(obj){ //Funcion para sumar novedades
     }
 }
 
+async function deleteNovedadesById(id){ //Una funcion que borra las novedades segun su ID
+    var query = 'delete from novedades where id = ?' // Borra la fila de novedades en donde el id coincida con el suministrado
+    var rows = await pool.query(query, [id]); 
+    return rows; //Devuelte las fila
+}
 
-module.exports = {getNovedades,insertNovedad}
+
+//Llamar a una novedad
+
+async function getNovedadesById(id){
+    var query = 'select * from novedades where id = ?';
+    var rows = await pool.query(query,[id]);
+    return rows [0];
+    }
+  
+    //Modificar novedad
+  
+    async function modificarNovedadesById(obj,id){
+      try{
+        var query = 'update novedades set ? where id=?';
+        var rows = await pool.query(query, [obj,id]);
+        return rows;
+      }catch (error){
+        throw(error);
+      }
+    } 
+
+module.exports = {getNovedades,insertNovedad,deleteNovedadesById,getNovedadesById,modificarNovedadesById}
